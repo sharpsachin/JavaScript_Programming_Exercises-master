@@ -10,7 +10,9 @@ console.log("New score: " + score);
 
 console.log("Way to go!");
 
-
+score = score + 100;
+console.log("New score: " + score);
+console.log("congratulations!");
 
 /* Further Adventures
  *

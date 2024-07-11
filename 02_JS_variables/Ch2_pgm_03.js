@@ -1,9 +1,10 @@
 // Using a variable
 
 var score;
-score = 100;
+score = 250;
+score2 = 350;
 console.log(score);
-
+console.log(score2);
 
 
 /* Further Adventures

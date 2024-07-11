@@ -8,7 +8,8 @@ locationName = "Argentina";
 
 console.log(playerName + " is in " + locationName);
 
-
+score = 100;
+console.log(playerName + " has a 100 of " + score );
 
 /* Further Adventures
  *

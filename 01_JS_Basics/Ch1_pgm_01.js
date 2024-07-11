@@ -1,12 +1,11 @@
 // Using console.log to display information
 
 console.log("Hello World!");
-console.log("hi");
-
+console.log("Hii..I'm sachin!!!");
 /* Further Adventures
  *
  * 1) Change the text between the parentheses.
- *
+ *ṇ
  * 2) Click Run on the console to run the program again.
  *
  * 3) Add your own console.log statement
