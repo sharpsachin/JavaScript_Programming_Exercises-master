@@ -8,6 +8,13 @@ bookAuthor = "J. R. R. Tolkien";
 
 console.log(bookTitle + " by " + bookAuthor);
 
+secondbook = "Ponniyin Selvan"
+bookauthor = "Kalki"
+console.log(secondbook + " by " + bookauthor);
+
+thirdbook = "Harry Potter"
+bookauthor = "J.K.Rowling"
+console.log(secondbook + " by " + bookauthor);
 
 
 /* Further Adventures

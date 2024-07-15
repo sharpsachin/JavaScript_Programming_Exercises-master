@@ -7,8 +7,15 @@ book = {
     author : "J. R. R. Tolkien",
     published : 1937
 };
-
 console.log(book);
+
+book2 = {
+    title : "One Indian Girl",
+    author : "Chetan Bhagat",
+    published : 1959
+};
+
+console.log(book2);
 
 
 

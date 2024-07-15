@@ -4,16 +4,24 @@ var player1;
 
 player1 = {
 	  name: "Max",
-	  score: 0
+	  score: 10
 };
+player2 = {
+	name: "henry",
+	score: 20
+};
+
 
 console.log(player1.name + " has scored " + player1.score);
 
 player1.score = player1.score + 50;
 
 console.log(player1.name + " has scored " + player1.score);
+console.log(player2.name + " has scored " + player2.score);
 
+player2.score = player2.score + 50;
 
+console.log(player2.name + " has scored " + player2.score);
 
 /* Further Adventures
  *

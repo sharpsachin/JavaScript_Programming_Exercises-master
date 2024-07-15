@@ -9,11 +9,20 @@ player = {
     items: "a rusty key, The Sword of Destiny, a piece of cheese"
 };
 
+player2 = {
+    name: "sachin",
+    health: 150,
+    place: "kovai",
+    items: "a rusty key, The Sword of Destiny, a piece of cheese"
+};
+
 console.log(player.name);
 console.log(player.name + " is in " + player.place);
 console.log(player.name + " has health " + player.health);
 console.log("Items: " + player.items);
 
+console.log(player2.name);
+console.log(player2);
 
 
 /* Further Adventures

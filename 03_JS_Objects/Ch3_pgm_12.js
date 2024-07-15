@@ -8,7 +8,13 @@ var post = {
 	body : "You will not believe where I just woke up!! Only on a comet..."
 };
 
+var post2 = {
+	id : 2,
+	title : "torado",
+	author : "tony",
+};
 
+console.log(post2);
 
 /* Further Adventures
  *
