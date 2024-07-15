@@ -6,13 +6,13 @@ var player;
 var showPlayerInfo;
 
 player1 = {
-    name: "Kandra",
+    name: "sachu",
     place: "The Dungeon of Doom",
     health: 50
 };
 
 player2 = {
-    name: "Dax",
+    name: "liam",
     place: "The Old Library",
     health: 40
 };
@@ -20,11 +20,17 @@ player2 = {
 showPlayerInfo = function () {
     console.log(player.name);
     console.log("------------------------------");
-    console.log(player.name + " is in " + player.place);
-    console.log(player.name + " has health " + player.health);
+    playerPlace(player);
+    playerHealth(player);
     console.log("------------------------------");
     console.log("");
 };
+const playerPlace=function (player){
+    console.log(player.name+ " is in: "+player.place);
+}
+const playerHealth=(player)=>{
+    console.log(player.name+" is in "+player.health);
+}
 
 player = player1;
 showPlayerInfo();
